@@ -1,0 +1,6 @@
+Feature: Application Login
+  Scenario: Admin page default login
+    Given User is on netbanking page
+    When user login into the application
+    Then Home page is displayed
+    And cards info is displayed
